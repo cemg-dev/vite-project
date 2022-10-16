@@ -1,12 +1,16 @@
 import "./style/global.css"
+import { Envelope, Lock } from 'phosphor-react';
+import { Button } from './components/Button';
+import { Checkbox } from './components/Checkbox';
+import { Heading } from './components/Heading';
+import { Text } from './components/Text';
+import { TextInput } from './components/TextInput';
+import { Logo } from './Logo';
+import { SignIn } from "./pages/SignIn";
 
 export function App() {
-  
   return (
-    <>
-        <h1 className="text-bold text-2xl text-center">Hello World</h1>
-        <button className="bg-red-900 text-white rounded px-4 py-2 hover:bg-green-500">Enviar</button>
-    </>
+    <SignIn/>
   );
 
 }
