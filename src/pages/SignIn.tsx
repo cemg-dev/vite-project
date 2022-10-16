@@ -50,7 +50,7 @@ export function SignIn() {
                 <Lock />
                 </TextInput.Icon>
 
-                <TextInput.Input type="password" id="password" placeholder="******" />
+                <TextInput.Input type="password" id="password" placeholder="********" />
                 </TextInput.Root>
             </label>
 
